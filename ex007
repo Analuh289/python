@@ -1,0 +1,4 @@
+nt1 = int(input('qual a nota 1: '))
+nt2 = int(input('qual a nota 2: '))
+media = (nt1 + nt2) / 2
+print('A media entre {} e {} é igual a {}'.format(nt1, nt2, media))
