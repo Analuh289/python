@@ -1,0 +1,19 @@
+#primeira forma de fazer
+#import math
+#co = float(input('qual é o valor do cateto oposto: '))
+#ca = float(input('qual é o valor do cateto adjacente: '))
+#h = ca + co
+#print('qual é o comprimeto da hipotenusa: {:.2f}'.format(co,ca,h))
+
+#segunda forma de fazer o exercicio
+#co = float(input('comprimento do cateto oposto: '))
+#ca = float(input('comprimeto do cateto adjacente :'))
+#hi = (co ** 2 + ca ** 2) ** (1/2)
+#print('a hipotenusa vai medir {}'.format(hi))
+
+# terceira forma de fazer esse exercicio
+import math
+co = float(input('comprimento do cateto oposto: '))
+ca = float(input('comprimeto do cateto adjacente :'))
+hi = math.hypot(co, ca)
+print('a hipotenusa vai medir {:.2f}'.format(hi))
