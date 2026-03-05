@@ -1,0 +1,4 @@
+diaalugado = float(input('quantos dias alugados?'))
+kmrodado = float(input('quantos km rodados? '))
+pago = (diaalugado * 60 ) + (kmrodado * 0.15)
+print('O total a pagar é de R${:.2f}'.format(pago))
