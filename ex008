@@ -1,0 +1,19 @@
+m = int(input('uma distancia em metros: '))
+km = m / 1000
+hm = m / 1000
+dam = m / 1000
+dm = m * 10
+cm = m * 100
+mm = m * 1000
+print(' a medida de {} corresponde a {:.0f}km, '
+      '{:.0f}hm,'
+      ' {:.0f}dam, '
+      '{:.0f}dm, '
+      '{:.0f}cm, '
+      '{:.0f}mm  '.format(m,
+km,
+hm,
+dam,
+dm,
+cm,
+mm))
