@@ -1,0 +1,14 @@
+#primeira forma de fazer
+#import math
+#num = float(input('digite um numero: '))
+#normal = math.trunc(num)
+#print('o numero {} tem a parte inteira {}'.format(num, normal))
+
+#segunda forma de fazer
+#from math import trunc
+#num = float(input('digite um valor: '))
+#print('o valor digitado foi {} e a sua porção inteira é {}'.format(num, trunc(num)))
+
+#terceira forma de fazer
+num = float(input('digite um valor:'))
+print('o valor digitado foi {} e a sua porção é {}'.format(num, int(num)))
