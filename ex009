@@ -1,0 +1,3 @@
+d = float(input('quanto vc tem na carteira?'))
+do = d / 3.27
+print('com {:.2f} voce pode comprar {:.2f}'.format(d, do))
