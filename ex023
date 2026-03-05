@@ -1,0 +1,3 @@
+nome = str(input('qual o seu nome completo: '))
+#print('seu nome tem Silva? {}'.format(nome[:5] == 'Silva'))
+print('seu nome tem silva? {}'.format('silva'in nome))
