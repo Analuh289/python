@@ -1,0 +1,2 @@
+c = str(input('em que cidade você nasceu? '))
+print(c[:11].upper() == 'Taiobeiras')
